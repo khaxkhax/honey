@@ -1,0 +1,187 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: blac;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: black;
+}
+
+/* Header */
+header {
+  
+  background: #fdd835;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.logo {
+  font-style: italic;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #3e2723;
+  text
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #3e2723;
+  font-weight: 500;
+}
+
+/* CTA Button */
+.cta-button {
+  background: #3e2723;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #5d4037;
+}
+
+.cta-button:active {
+  background: #8d6e63;
+}
+
+/* Honey Section */
+.honey-section {
+  padding: 50px;
+  background-color: #fffbee;
+  text-align: center;
+  background-image: url('https://images.unsplash.com/photo-1604335399104-272b3bb2168e');
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.honey-section h2 {
+  font-size: 2rem;
+}
+
+.honey-section p {
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 1.2rem;
+  color: black;
+}
+
+/* Honey Image & Types */
+.honey-image {
+  margin: 30px auto;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.honey-types {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.honey-type {
+  width: 150px;
+  text-align: center;
+}
+
+.honey-type img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.honey-type:hover img {
+  transform: scale(1.1);
+}
+
+.honey-type span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #3e2723;
+  transition: color 0.3s ease;
+}
+
+.honey-type:hover span {
+  color: #fdd835;
+}
+
+/* Footer */
+footer {
+  background: #3e2723;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 15px;
+  min-width: 200px;
+}
+
+.footer-column h4 {
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-icons a {
+  color: #fdd835;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.newsletter input[type="email"] {
+  padding: 8px;
+  width: 70%;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.newsletter button {
+  padding: 8px 15px;
+}
